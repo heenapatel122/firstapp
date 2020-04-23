@@ -9,6 +9,9 @@
 
 # dependencies
 /node_modules
+package-lock.json
+yarn.lock
+yarn.log
 
 # profiling files
 chrome-profiler-events*.json
@@ -41,6 +44,13 @@ yarn-error.log
 testem.log
 /typings
 
+#e2e
+/e2e/*js
+/e2e/*.map
+
 # System Files
 .DS_Store
 Thumbs.db
+/.vs
+/dist
+/dist.zip

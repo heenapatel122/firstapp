@@ -3,8 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  // styleUrls: ['./sidebar.component.scss']
+
 })
 export class AppComponent {
-  title = 'first-app';
+  title = 'My-page';
+  isShown: boolean = false;
+
+  checkSidebar() {
+
+  }
 }
